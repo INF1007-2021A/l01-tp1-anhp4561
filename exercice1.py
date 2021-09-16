@@ -8,7 +8,7 @@ def fizzBuzz(n):
     elif (n%3==0):
         resultat = "fizz"
     else :
-        resultat = "ni fizz ni buzz"
+        resultat = f"{n} est ni fizz ni buzz"
 
     return resultat
 
