@@ -8,8 +8,8 @@ def pointDeRencontre(v1, v2, distance):
     return positionRencontre
 
 if __name__ == '__main__':
-    v1 = int(input("Entrez v1: "))
-    v2 = int(input("Entrez v2: "))
-    distance = int(input("Entrez la distance: "))
+    v1 = float(input("Entrez v1: "))
+    v2 = float(input("Entrez v2: "))
+    distance = float(input("Entrez la distance: "))
     print("Le point de rencontre se situe à",pointDeRencontre(v1, v2, distance),
     "unités de distance de la position initiale du véhicule 1")
